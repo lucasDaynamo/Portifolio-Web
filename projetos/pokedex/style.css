@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&family=Nunito+Sans:opsz,wght@6..12,600&family=Oxanium:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Yellowtail&display=swap');
+
+/* font-family: 'Asap', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oxanium', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Yellowtail', cursive; */
+
+* {
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    background: linear-gradient(to bottom, #6AB7F5, #FFF);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    height: 39rem;
+    width: 25rem;
+    background: url('imagens/pokedex.png') no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+main img {
+    width: 9rem;
+    height: 7rem;
+    position: absolute;
+    top: 31%;
+    left: 29%;
+
+}
+
+.pokemon_data {
+    font-weight: 600;
+    color: black;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 51%;
+    left: 21%;
+}
+
+.pokemon_name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    bottom: 25%;
+    left: 13%;
+    width: 65%;
+}
+
+input {
+    width: 100%;
+    padding: 3%;
+    outline: none;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: 1.4rem;
+    box-shadow: -3px 4px #888, -5px 7px #333;
+    width: 17.5rem;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    width: 65%;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.button {
+    width: 50%;
+    padding: 3%;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #3a444d;
+    color: #FFF;
+    box-shadow: -3px 4px #888, -5px 7px #333;
+    cursor: pointer;
+}
+
+.button:active {
+    font-size: .9rem;
+    box-shadow: inset -4px 4px #222;
+    transition: 0.5s;
+}
+@media(max-width:600px) {
+    main {
+        height: 31.5rem;
+        width: 23.5rem;
+        background: url('imagens/pokedex.png') no-repeat center;
+        background-size: 100% 100%;
+        text-align: center;
+        align-items: center;
+        position: relative;
+    }
+    main img {
+        width: 8rem;
+        height: 5rem;
+        position: absolute;
+        top: 31%;
+        left: 29%;
+
+    }
+    input{
+        width: 16.5rem;
+    }
+}

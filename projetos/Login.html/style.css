@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #08FE6C;
+    border: #08FE6C;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background-image: url(https://a-static.besthdwallpaper.com/jujutsu-kaisen-satoru-gojo-in-the-city-in-the-rain-wallpaper-2560x1600-116853_7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+a {
+    font-size: 3vh;
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* conteiner login */
+
+#login-container {
+    width: 45rem;
+    padding: 1.25rem;
+    height: 60vh;
+    text-align: center;
+    border-radius: .625rem;
+    display: flex;
+}
+
+/* form */
+
+form {
+    margin: 2.5rem 0;
+
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+label,
+input {
+    display: block;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 3.3vh;
+}
+
+input {
+    border-bottom: 2px solid red;
+    padding: 10%;
+    font-size: 3vh;
+    width: 90%;
+    margin-bottom: 1.25rem;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+
+input[type="submit"] {
+    background-color: hsla(205, 89%, 29%, 0.75);
+    color: #fa021fb5;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.25rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+input[type="submit"]:hover {
+    background-color: #08548b;
+    color: #fa021f;
+}
+
+/* redes_sociais */
+
+#social-conteiner,
+#social-conteiner p {
+    margin-bottom: 1.25px;
+
+}
+
+#social-conteiner i {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    margin: 0 .3rem;
+    color: white;
+}
+
+.fa-facebook-f {
+    background-color: #1E7CF2;
+}
+
+.fa-linkedin {
+    background-color: #306CB3;
+}
+
+.fa-whatsapp {
+    background-color: #08FE6C;
+}
+
+#register-container {
+    margin-top: 5%;
+}
+
+#register-container p {
+    margin-bottom: .6rem;
+}
+
+/* :placeholder */
+
+
+input {
+    background: rgba(138, 0, 138, 0.211);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 186, 254);
+}
+
+@media(max-width:600px){
+    html {
+        background-image: url(https://a-static.besthdwallpaper.com/jujutsu-kaisen-satoru-gojo-in-the-city-in-the-rain-wallpaper-2560x1600-116853_7.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 112vh;
+        display: grid;
+        place-items: center;
+    }
+    
+}

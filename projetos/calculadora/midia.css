@@ -1,0 +1,21 @@
+
+@media (max-width:375px) {
+    .calculadora{
+        height: 57vh;
+    }
+}
+@media (max-width:414px) {
+    .calculadora{
+        height: 43vh;
+    }
+}
+@media (max-width:430px) {
+    .calculadora{
+        height: 40vh;
+    }
+}
+@media (max-width:360px) {
+    .calculadora{
+        height: 50vh;
+    }
+}

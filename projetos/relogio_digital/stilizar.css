@@ -1,0 +1,87 @@
+@font-face {
+    font-family: nova;
+    src: url(DS-DIGI.TTF), url(DS-DIGIB.TTF), url(DS-DIGII.TTF), url(DS-DIGIT.TTF);
+}
+
+* {
+    font-family: nova;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/c2/6c/93/c26c939e9fe083948e4760b77989f1d9.gif);
+    background-repeat: no-repeat;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(136, 80, 6);
+    margin-top: 12vh;
+}
+
+.caixa1,
+.caixa2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 5rem auto;
+    flex-wrap: wrap;
+}
+
+
+.caixa1 div,
+.caixa2 div {
+    border: 4px solid rgb(109, 97, 0);
+    padding: 2.5rem;
+    box-shadow: -4px 5px 10px black;
+    background-color: black;
+    color: orange;
+    width: 15rem;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 920px) {
+
+    body {
+        overflow: hidden;
+
+    }
+
+    .principal {
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+    }
+
+    .caixa1,
+    .caixa2 {
+        flex-direction: column;
+        width: 10rem;
+    }
+
+    .caixa1 div,
+    .caixa2 div {
+        padding: 2.1rem;
+        width: 10rem;
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }

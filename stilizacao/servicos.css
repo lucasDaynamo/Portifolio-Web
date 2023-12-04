@@ -1,0 +1,40 @@
+hr {
+    border-bottom: 1px solid #2d2dca;
+    width: 20%;
+    margin: 2% auto;
+}
+
+#projetos div:nth-child(1),
+#projetos div:nth-child(4) {
+    background: rgba(255, 253, 253, 0.988);
+}
+
+#conteudos_projetos {
+    display: flex;
+    gap: 2.1%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#conteudos_projetos p{
+    color:black;
+    text-shadow: none;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#conteudos_projetos div {
+    width: 46%;
+    border: 2px solid red;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 2%;
+    background: rgba(255, 253, 253, 0.988);
+}
+
+#conteudos_projetos div img {
+    width: 20%;
+    display: block;
+    margin: 2% auto 0;
+    border-radius: 2rem;
+}

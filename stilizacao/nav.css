@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    background-color: #34349e;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo img {
+    width: 5.62rem;
+    height: 5.62rem;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #4d4df7;
+    width: inherit;
+    margin-left: 90%;
+}
+
+nav ul,nav ol {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 1%;
+}
+
+nav ul li a,nav ol a {
+    flex-direction: row;
+    color:  white;
+    text-shadow: 2px 2px black;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: Yellowtail, cursive;
+}
+
+nav ul li a:hover
+,nav ol a:hover {
+    color: rgb(40, 230, 255);
+    border-bottom: 3px solid #4e4efc;
+    border-radius: 50%;
+}
+
+
+

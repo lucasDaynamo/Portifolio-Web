@@ -1,0 +1,29 @@
+#contatos {
+    background-color: #4d4df7;
+    margin: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contatos_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.contatos_card img {
+    margin-right: 2%;
+    width: 6%;
+}
+
+.contatos_card a {
+    color: greenyellow;
+}
+
+#cont_horizontal {
+    display: flex;
+    justify-content: space-around;
+}

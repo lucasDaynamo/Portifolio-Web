@@ -1,0 +1,24 @@
+#fotos {
+    background-color: hsl(240, 64%, 27%);
+    margin-top: 2%;
+}
+
+#fotos h2 {
+    margin-bottom: 5%;
+}
+
+#fotos div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 80vh;
+    object-fit: cover;
+    justify-content: space-around;
+}
+
+#fotos div img {
+    width: 33%;
+    height: 44%;
+    padding: 0% 5%;
+    overflow: hidden;
+}

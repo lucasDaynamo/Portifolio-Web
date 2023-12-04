@@ -1,0 +1,33 @@
+header {
+    background:url(https://static.vecteezy.com/ti/fotos-gratis/p1/3334913-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg) no-repeat ;
+    background-size: cover;
+    text-align: center;
+    height: 57vh;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-attachment: fixed;
+}
+
+header h1 {
+    color:white;
+    margin-top: 13vh;
+}
+
+header a {
+    color:  white;
+    background: #191970;
+    padding: 0.6rem 1.4rem;
+    font-size: .9rem;
+    border-radius: 5px;
+    transform: skew(-12deg);
+
+}
+
+.botao_destaque {
+    background: none;
+    color: #2d2dca;
+}
+
